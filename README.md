@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Summary
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I have created a simple grid phone book with mobile first approach that is responsive enough for most smart phone devices as well as to get adjusted for the desktop screen-sizes.
+
+# Features
+
+1. Simple View of contacts with their names and images
+2. Button to switch between list and grid view
+3. A type ahead search bar to be able to narrow down your search
+4. Detail view with image, name and numbers(cell and phone)
 
 ## Available Scripts
 

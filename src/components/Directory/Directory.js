@@ -58,10 +58,6 @@ class Directory extends React.Component {
 
 
   render() {
-    // Create responsive cards for each User
-    // Create a search bar
-    // Additional feature add grid vs list view and toggle
-
     const {users, isGrid} = this.state;
     return <div>
             <h1>Contacts</h1>
