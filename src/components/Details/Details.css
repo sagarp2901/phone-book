@@ -1,1 +1,11 @@
-.Details {}
+.arrow-back {
+  position: relative;
+  top: -7vh;
+  left: -43vw;
+}
+.detail-container {
+  border: 1px solid grey;
+  border-radius: 4px;
+  margin: 5%;
+  padding: 5%;
+}

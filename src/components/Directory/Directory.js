@@ -67,10 +67,10 @@ class Directory extends React.Component {
             <h1>Contacts</h1>
             <div className="input-container">
               <input name="search" onChange={this.handleChange} placeholder="Search Contact..." />
-              <FaSearch />
+              <FaSearch color="grey" />
             </div>
             <div className="grid-button-container">
-              { isGrid ? <FaList onClick={()=> this.switchListView()} /> : <FaTh onClick={()=> this.switchListView()}/>}
+              { isGrid ? <FaList color="grey" onClick={()=> this.switchListView()} /> : <FaTh color="grey" onClick={()=> this.switchListView()}/>}
             </div>
             
             <div className={isGrid? 'users-container-grid' : 'users-container-list'}>
